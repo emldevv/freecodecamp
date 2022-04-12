@@ -1,0 +1,50 @@
+!<!DOCTYPE html>
+<!--There are some problems with pen io. It wont accept the id="name/email/number" code I have written. I think I may have set them up wrong. I will need to go back through my notes and find how to set up input fields.-->
+<html lang="en">
+    <style>
+      h1 {
+        font-size: h1;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        color: black
+      }
+      p {
+          font-size: 20px;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          text-align: center;
+      }
+      body {
+          background: linear-gradient(100deg, #FFFFFF, #8CC7CA)
+      }
+      #survey-form {
+        background-color: rgb(140, 199, 202);
+        color: black;
+        opacity: 0.7;
+        border-radius: 5px;
+        width: 600px;
+        position: relative;
+        right: -150px;
+        left: 150px;
+        font-size: 14px;
+        
+      }
+      #name {
+        opacity: 1;
+        border-radius: 5px;
+      }
+      #email {
+        opacity: 1;
+        border-radius: 5px;
+      }
+    </style>
+<head>
+    <h1 id="title"><b>Year 7 Science Survey Form</b></title>
+</head>
+<body>
+    <p id="description">Thank you for taking the time to help me improve our science class.</p>
+    <form id="survey-form">
+        <div>Name<br><input type="text" id="name" placeholder="Enter your name"></div><br>
+        <div>Email<br><input type="text" id="email" placeholder="Enter your name"></div><br>
+    </form>
+</body>
+</html>

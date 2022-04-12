@@ -1,0 +1,22 @@
+div.main-body{
+    display: grid;
+    grid-template-columns: minmax(300px, auto) 1fr;
+    grid-template-areas: navbar mainContent;
+    
+}
+#navbar{
+    grid-area: navbar;
+    position: fixed;
+}
+#navbar a{
+    display: block;
+}
+#main-doc{
+    grid-area: mainContent;
+
+}
+@media (max-width: 500px){
+    body{
+        flex-wrap: wrap;
+    }
+}

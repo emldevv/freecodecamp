@@ -1,0 +1,50 @@
+body{
+    background-image: url(/home/emldev/Desktop/fccprojects/surveyform/images/o-SCIENCE-CLASSROOM-facebook.jpg);
+}
+#title{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+#description{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.survey-form{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    background-color: rgb(140, 199, 202);
+    color: black;
+    opacity: 0.9;
+    border: black solid;
+    border-radius: 5px;
+    padding: 30px;
+    width: 55%;
+    position: relative;
+    margin:auto;
+    font-size: 14px;
+}
+#survey-form label{
+    display: block;
+}
+.details-box{
+    width: 95%;
+    opacity: 1;
+    border-radius: 5px;
+    margin: auto;
+    padding: 2px 5px 2px 5px;
+}
+#dropdown{
+    width: 97%;
+    border-radius: 5px;
+    margin:auto;
+    padding: 2px 5px 2px 5px;
+}
+fieldset{
+    margin: 10px;
+}
+textarea{
+    width: 97%;
+}

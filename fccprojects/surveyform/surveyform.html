@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FCC Survey Form</title>
+    <link rel="stylesheet" href="/home/emldev/Desktop/fccprojects/surveyform/style.css">
+</head>
+<body>
+    <h1 id="title">Year 7 Science Survey Form</h1>
+    <p id="description">Thank you for taking the time to help me improve our science classes</p>
+    <form id="survey-form" class="survey-form">
+        <div>
+            <label id="name-label">Name</label>
+            <input class="details-box" id="name" type="text" name="name" placeholder="Enter your name" required></input>
+        </div>
+        <div>
+            <label id="email-label">Email</label>
+            <input class="details-box" id="email" type="email" name="email" placeholder="Enter your email" required></input>
+        </div>
+        <div>
+            <label id="number-label">Student Number</label>
+            <input class="details-box" id="number" type="number" name="number" placeholder="Enter your student number" min="10" max="10" required></input>
+        </div>
+        <div>
+            <p>Think back on your reflections at the start of the term.<br> How happy are you with you progress in learning science?</p>
+            <select id="dropdown">
+                <option value="veryhappy">Very happy</option>
+                <option value="happy">happy</option>
+                <option value="meh">Meh..</option>
+                <option value="unhappy">unhappy</option>
+                <option value="changingclasses">I'm changing classes!</option>
+            </select>
+        </div>
+        <fieldset>
+            <legend>Which science subjects were you most interested in or enjoyed the most?</legend>
+            <label for="physics"><input id="physics" type="radio" name="attribute" value="physics"> Physics</label>
+            <label for="biology"></label><input id="biology" type="radio" name="attribute" value="biology"> Biology</label>
+            <label for="chemistry"></label><input id="chemistry" type="radio" name="attribute" value="chemistry"> Chemistry</label>
+            <label for="earth"></label><input id="earth" type="radio" name="attribute" value="earth"> Earth Sciences</label>
+            <label for="space"></label><input id="space" type="radio" name="attribute" value="space"> Space</label>
+        </fieldset>
+        <p>Of the following activities in the science class, which would you like to see more of?</p>
+            <label for="experiments"><input id="experiments" type="checkbox" name="attribute2" value="experiments"> Experiments</label>
+            <label for="pbl"><input id="pbl" type="checkbox" name="attribute2" value="pbl"> Project-based Learning</label>
+            <label for="research"><input id="research" type="checkbox" name="attribute2" value="research"> Research</label>
+            <label for="digital"><input id="digital" type="checkbox" name="attribute2" value="digital"> Digital Learning and Projects</label>
+        <div id="comments">
+            <label>Additional comments: </label>
+            <textarea type="text" name="message"></textarea>
+        </div>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+        
+</body>
+</html>
