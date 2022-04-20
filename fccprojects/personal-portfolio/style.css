@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* General styles */
+
+
+/*  Buttons */
+
+
+/*  Typography */
+
+/* Header */
+
+ header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1em 0em 1em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
+    background-color: rgb(185, 78, 78);
+ }
+
+ .logo{
+    width: 100px;
+ }
+
+ .navbar{
+    display: flex;
+    
+    
+ }
+
+ .nav-list{
+    display: flex;
+   
+    padding: 0em 1em 0em 1em;
+    
+ }
+
+ .nav-item{
+    display: flex;
+    
+    text-decoration: none;
+    flex: 1;
+ }
+ .nav-item li{
+    display: flex;
+ }
+ .nav-item a{
+    display: flex;
+    padding: 0em 0em 0em 1em;
+
+    font-size: large;
+    color: white;
+    text-decoration: none;
+
+ }
+ 
+ 
+ /* Display stuff */
+
+    /* Positioning stuff */
+
+    /* Box-model + sizing stuff - this includes background colors*/
+
+    /* Typography */
+
+    /* Manipulation stuff */
+
+    /* Misc
